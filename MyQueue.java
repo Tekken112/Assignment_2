@@ -1,9 +1,5 @@
 public class MyQueue<T> {
-    private MyLinkedList<T> data;
-
-    public MyQueue() {
-        data = new MyLinkedList<>();
-    }
+    private MyLinkedList<T> data = new MyLinkedList<>();
 
     public void enqueue(T item) {
         data.addLast(item);
